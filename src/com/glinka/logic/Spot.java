@@ -1,10 +1,10 @@
 package com.glinka.logic;
 
-public class Element {
+public class Spot {
     private int x;
     private int y;
 
-    public Element(int x, int y){
+    public Spot(int x, int y){
         this.x = x;
         this.y = y;
     }
@@ -34,7 +34,7 @@ public class Element {
     public boolean equals(Object o){
         if(this == o) return true;
         if(o == null || getClass() != o.getClass()) return false;
-        Element e = (Element) o;
+        Spot e = (Spot) o;
         return x == e.x && y == e.y;
     }
 

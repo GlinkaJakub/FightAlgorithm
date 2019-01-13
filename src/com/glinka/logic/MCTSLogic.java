@@ -1,7 +1,7 @@
 package com.glinka.logic;
 
 import com.glinka.logic.algorithm.MCTS;
-import com.glinka.util.DataParser;
+import com.glinka.util.Parser;
 
 import java.util.ArrayList;
 
@@ -16,27 +16,27 @@ public class MCTSLogic {
     }
 
     public void initSize(int size){
-        DataParser.size = size;
+        Parser.size = size;
         board.setSize(size);
     }
 
-    public void initBlackSopts(ArrayList<Element> configuration){
+    public void initBlackSopts(ArrayList<Spot> configuration){
         board.filter(configuration);
     }
 
-    public Element getOptimalMove(ArrayList<Element> coordinates){
-        board.performMove(player, DataParser.parseInputDataToElement(coordinates));
+    public Spot getOptimalMove(ArrayList<Spot> coordinates){
+        board.performMove(player, Parser.parseInputDataToElement(coordinates));
         if(board.getMoves().size() > 1200){
-            board = Reverse.reverseMove(board, DataParser.parseInputDataToElement(coordinates), player);
+            board = Reverse.reverseMove(board, Parser.parseInputDataToElement(coordinates), player);
         } else {
             board = monteCarloTreeSearch.findNextMove(board, player);
         }
         return board.getLastMove();
     }
 
-    public Element getStartMoveData() {
+    public Spot getStartMoveData() {
         if(board.getMoves().size() > 1200){
-            Element e = board.getMoves().iterator().next();
+            Spot e = board.getMoves().iterator().next();
             board.performMove(player, e);
         } else {
             board = monteCarloTreeSearch.findNextMove(board, player);

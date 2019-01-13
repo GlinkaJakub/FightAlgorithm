@@ -1,7 +1,7 @@
 package com.glinka.logic.algorithm;
 
 import com.glinka.logic.Board;
-import com.glinka.logic.Element;
+import com.glinka.logic.Spot;
 
 import java.util.HashSet;
 
@@ -29,7 +29,7 @@ public class State {
 
     public HashSet<State> getAllPossibleStates() {
         HashSet<State> possibleStates = new HashSet<>();
-        HashSet<Element> availableMoves = this.board.getMoves();
+        HashSet<Spot> availableMoves = this.board.getMoves();
         availableMoves.forEach(m -> {
 
             State newState = new State(this.board);
@@ -41,21 +41,14 @@ public class State {
         return possibleStates;
     }
 
-    int getOpponent() {
-        return 3 - playerNo;
-    }
-
-
     void incrementVisit() {
         this.visitCount++;
     }
-
 
     void addScore(double score) {
         if (this.winScore != Integer.MIN_VALUE)
             this.winScore += score;
     }
-
 
     void play() {
         this.board.performMove(this.playerNo, this.board.getMoves().iterator().next());
@@ -65,6 +58,9 @@ public class State {
         this.playerNo = 3 - this.playerNo;
     }
 
+    int getOpponent() {
+        return 3 - playerNo;
+    }
 
     public Board getBoard() {
         return board;

@@ -1,53 +1,54 @@
-package com.glinka.inputconsumer;
+package com.glinka.gamer;
 
 import com.glinka.controller.Controller;
 import com.glinka.logic.Board;
 import com.glinka.logic.MCTSLogic;
 import com.glinka.logic.algorithm.MCTS;
+import com.glinka.util.Answer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class GameInputConsumer {
+public class Gamer {
 
     private BufferedReader bufferedReader;
     private Controller controller;
-    private static GameInputConsumer INSTANCE = null;
+    private static Gamer INSTANCE = null;
 
-    public GameInputConsumer(BufferedReader bufferedReader, Controller controller) {
+    public Gamer(BufferedReader bufferedReader, Controller controller) {
         this.bufferedReader = bufferedReader;
         this.controller = controller;
     }
 
-    public static synchronized GameInputConsumer getInstance(BufferedReader bufferedReader, Controller controller) {
+    public static synchronized Gamer getInstance(BufferedReader bufferedReader, Controller controller) {
         if (INSTANCE == null)
-            INSTANCE = new GameInputConsumer(bufferedReader, controller);
+            INSTANCE = new Gamer(bufferedReader, controller);
         return INSTANCE;
     }
 
-    public void consumeConfig(CallBack.ConfigCallBack configCallBack){
+    public void consumeConfig(Answer.ConfigAnswer configAnswer){
         try{
             String input = bufferedReader.readLine();
-            configCallBack.notify(controller.initBoard(input));
+            configAnswer.notify(controller.initBoard(input));
         } catch (Exception e){
             System.out.println(e.getMessage());
         }
     }
 
-    public void consumeBlackSpotsConfig(CallBack.BlackSpotsCallBack blackSpotsCallBack){
+    public void consumeBlackSpotsConfig(Answer.BlackSpotsAnswer blackSpotsAnswer){
         try{
             String input = bufferedReader.readLine();
-            blackSpotsCallBack.notify(controller.initSpots(input));
+            blackSpotsAnswer.notify(controller.initSpots(input));
         } catch (Exception e){
             System.out.println(e.getMessage());
         }
     }
 
-    public void consumeMove(CallBack.MoveCallBack moveCallBack){
+    public void consumeMove(Answer.MoveAnswer moveAnswer){
         try{
             String input = bufferedReader.readLine();
-            moveCallBack.notify(controller.responseBasedOnInput(input));
+            moveAnswer.notify(controller.responseBasedOnInput(input));
         } catch (Exception e){
             System.out.println(e.getMessage());
             closeReader();
@@ -55,9 +56,9 @@ public class GameInputConsumer {
         }
     }
 
-    public void startGame(CallBack.MoveCallBack moveCallBack){
+    public void startGame(Answer.MoveAnswer moveAnswer){
         do {
-            consumeMove(moveCallBack);
+            consumeMove(moveAnswer);
         } while(controller.isGameRunning());
         closeReader();
     }
@@ -70,7 +71,7 @@ public class GameInputConsumer {
         }
     }
 
-    public static GameInputConsumer provideInputConsumer(){
-        return GameInputConsumer.getInstance(new BufferedReader(new InputStreamReader(System.in)), new Controller(new MCTSLogic(new MCTS(), new Board())));
+    public static Gamer provideInputConsumer(){
+        return Gamer.getInstance(new BufferedReader(new InputStreamReader(System.in)), new Controller(new MCTSLogic(new MCTS(), new Board())));
     }
 }

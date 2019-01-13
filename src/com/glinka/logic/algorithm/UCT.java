@@ -20,5 +20,4 @@ public class UCT {
                 node.getChildHashSet(),
                 Comparator.comparing(c -> uctValue(parentVisit, c.getState().getWinScore(), c.getState().getVisitCount())));
     }
-
 }

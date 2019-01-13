@@ -5,9 +5,9 @@ import java.util.HashSet;
 
 public class Board {
 
-    private HashSet<Element> moves;
+    private HashSet<Spot> moves;
     private int lastPlayer;
-    private Element lastMove = new Element(0, 0);
+    private Spot lastMove = new Spot(0, 0);
     public static final int IN_PROGRESS = -1;
     private int size;
 
@@ -32,26 +32,24 @@ public class Board {
                 head = i * size + j;
                 ai = head - 1 - (i * size) < 0 ? i * size + j - 1 + size : i * size + j - 1;
                 aj = head - size < 0 ? i * size + j - size + (size * size) : i * size + j - size;
-                moves.add(new Element(head, ai));
-                moves.add(new Element(head, aj));
-
+                moves.add(new Spot(head, ai));
+                moves.add(new Spot(head, aj));
             }
         }
     }
 
-    public void filter(ArrayList<Element> elements) {
-        elements.forEach(move -> {
+    public void filter(ArrayList<Spot> spots) {
+        spots.forEach(move -> {
             int x = move.getX() * size + move.getY();
             moves.removeIf(element -> (element.getX() == x || (element.getY() == x)));
         });
     }
 
-    public void performMove(int lastPlayer, Element move) {
+    public void performMove(int lastPlayer, Spot move) {
         this.lastPlayer = lastPlayer;
         this.lastMove = move;
         moves.removeIf(element -> (element.getX() == move.getX()) || (element.getY() == move.getY() || element.getX() == move.getY()) || (element.getY() == move.getX()));
     }
-
 
     public int checkStatus() {
         if (!moves.isEmpty())
@@ -61,15 +59,15 @@ public class Board {
         }
     }
 
-    public HashSet<Element> getMoves() {
+    public HashSet<Spot> getMoves() {
         return moves;
     }
 
-    public void setMoves(HashSet<Element> moves) {
+    public void setMoves(HashSet<Spot> moves) {
         this.moves = moves;
     }
 
-    public Element getLastMove() {
+    public Spot getLastMove() {
         return lastMove;
     }
 

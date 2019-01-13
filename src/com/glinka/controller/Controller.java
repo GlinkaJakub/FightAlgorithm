@@ -1,14 +1,13 @@
 package com.glinka.controller;
 
-import com.glinka.logic.Element;
+import com.glinka.logic.Spot;
 import com.glinka.logic.MCTSLogic;
-import com.glinka.util.DataParser;
+import com.glinka.util.Parser;
 
 public class Controller {
     private MCTSLogic mctsLogic;
     private boolean isGameRunning = false;
     public static final String ok = "ok";
-
 
     public Controller(MCTSLogic mctsLogic){
         this.mctsLogic = mctsLogic;
@@ -20,23 +19,23 @@ public class Controller {
     }
 
     public String initSpots(String config){
-        mctsLogic.initBlackSopts(DataParser.parseInputData(config));
+        mctsLogic.initBlackSopts(Parser.parseInputData(config));
         return ok;
     }
 
     private String makeStartMove(){
-        return DataParser.parseOutputData(mctsLogic.getStartMoveData());
+        return Parser.parseOutputData(mctsLogic.getStartMoveData());
     }
 
     private String makeMove(String moveData){
-        Element optimalMove = mctsLogic.getOptimalMove((DataParser.parseInputData(moveData)));
+        Spot optimalMove = mctsLogic.getOptimalMove((Parser.parseInputData(moveData)));
         if(optimalMove == null){
             isGameRunning = false;
             return "No find move";
         } else {
             if(mctsLogic.isGameEnd())
                 isGameRunning = false;
-            return DataParser.parseOutputData(optimalMove);
+            return Parser.parseOutputData(optimalMove);
         }
     }
 

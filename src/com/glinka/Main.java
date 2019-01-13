@@ -1,31 +1,31 @@
 package com.glinka;
 
-import com.glinka.inputconsumer.GameInputConsumer;
-import com.glinka.inputconsumer.CallBack;
+import com.glinka.gamer.Gamer;
+import com.glinka.util.Answer;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        GameInputConsumer gameInputConsumer = GameInputConsumer.provideInputConsumer();
-        gameInputConsumer.consumeConfig(new CallBack.ConfigCallBack() {
+        Gamer gamer = Gamer.provideInputConsumer();
+        gamer.consumeConfig(new Answer.ConfigAnswer() {
             @Override
-            public void notify(String callBack) {
-                System.out.println(callBack);
+            public void notify(String answer) {
+                System.out.println(answer);
             }
         });
 
-        gameInputConsumer.consumeBlackSpotsConfig(new CallBack.BlackSpotsCallBack() {
+        gamer.consumeBlackSpotsConfig(new Answer.BlackSpotsAnswer() {
             @Override
-            public void notify(String callBack) {
-                System.out.println(callBack);
+            public void notify(String answer) {
+                System.out.println(answer);
             }
         });
 
-        gameInputConsumer.startGame(new CallBack.MoveCallBack() {
+        gamer.startGame(new Answer.MoveAnswer() {
             @Override
-            public void notify(String callBack) {
-                System.out.println(callBack);
+            public void notify(String answer) {
+                System.out.println(answer);
             }
         });
     }

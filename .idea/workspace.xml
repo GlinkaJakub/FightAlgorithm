@@ -9,7 +9,29 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/glinka/logic/algorithm/State.java" line="17" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06dc4df9-0e85-43dc-8c9f-7c6691ff4611" name="Default" comment="" />
+    <list default="true" id="06dc4df9-0e85-43dc-8c9f-7c6691ff4611" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/glinka/util/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/291068.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/291068.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FightAlgorithm/com/glinka/inputconsumer/CallBack$BlackSpotsCallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FightAlgorithm/com/glinka/inputconsumer/CallBack$ConfigCallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FightAlgorithm/com/glinka/inputconsumer/CallBack$MoveCallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FightAlgorithm/com/glinka/inputconsumer/CallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FightAlgorithm/com/glinka/inputconsumer/GameInputConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FightAlgorithm/com/glinka/logic/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FightAlgorithm/com/glinka/util/DataParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glinka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glinka/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glinka/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glinka/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glinka/inputconsumer/CallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glinka/util/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glinka/inputconsumer/GameInputConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glinka/gamer/Gamer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glinka/logic/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glinka/logic/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glinka/logic/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glinka/logic/Spot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glinka/logic/MCTSLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glinka/logic/MCTSLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glinka/logic/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glinka/logic/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glinka/logic/algorithm/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glinka/logic/algorithm/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glinka/logic/algorithm/UCT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glinka/logic/algorithm/UCT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glinka/util/DataParser.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +45,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/glinka/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="195">
+              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#412#413#0" expanded="true" />
@@ -38,43 +60,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.class" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/out/production/FightAlgorithm/com/glinka/Main.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#1103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/glinka/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#1721#1722#0" expanded="true" />
-                <element signature="e#1757#1758#0" expanded="true" />
-                <element signature="e#1783#1784#0" expanded="true" />
-                <element signature="e#1819#1820#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameInputConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/glinka/inputconsumer/GameInputConsumer.java">
+      <file leaf-file-name="Gamer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/glinka/gamer/Gamer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="73" lean-forward="true" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
+            <state relative-caret-position="270">
+              <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +87,8 @@
       <file leaf-file-name="MCTS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/algorithm/MCTS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-690">
-              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="510">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#333#334#0" expanded="true" />
@@ -105,10 +107,11 @@
       <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/algorithm/State.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+            <state relative-caret-position="555">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#addScore#0;class#State#0" />
               </folding>
             </state>
           </provider>
@@ -117,8 +120,8 @@
       <file leaf-file-name="UCT.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/algorithm/UCT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="315">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,16 +129,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/tree/Node.java">
+      <file leaf-file-name="Reverse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/Reverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/glinka/util/Answer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -152,12 +159,12 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-664">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="315">
+              <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,14 +194,16 @@
         <option value="$PROJECT_DIR$/src/com/glinka/logic/MCTSLogic.java" />
         <option value="$PROJECT_DIR$/src/com/glinka/inputconsumer/GameinputConsumer.java" />
         <option value="$PROJECT_DIR$/src/com/glinka/inputconsumer/CallBack.java" />
-        <option value="$PROJECT_DIR$/src/com/glinka/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/glinka/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/glinka/inputconsumer/GameInputConsumer.java" />
         <option value="$PROJECT_DIR$/src/com/glinka/logic/tree/Tree.java" />
         <option value="$PROJECT_DIR$/src/com/glinka/logic/tree/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/glinka/logic/algorithm/MCTS.java" />
-        <option value="$PROJECT_DIR$/src/com/glinka/logic/algorithm/State.java" />
+        <option value="$PROJECT_DIR$/src/com/glinka/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/glinka/gamer/Gamer.java" />
+        <option value="$PROJECT_DIR$/src/com/glinka/util/Answer.java" />
         <option value="$PROJECT_DIR$/src/com/glinka/logic/algorithm/UCT.java" />
+        <option value="$PROJECT_DIR$/src/com/glinka/logic/algorithm/State.java" />
+        <option value="$PROJECT_DIR$/src/com/glinka/logic/algorithm/MCTS.java" />
+        <option value="$PROJECT_DIR$/src/com/glinka/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/glinka/logic/Board.java" />
       </list>
     </option>
@@ -231,41 +240,6 @@
             <path>
               <item name="FightAlgorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="FightAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FightAlgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FightAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FightAlgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FightAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="FightAlgorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FightAlgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FightAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="FightAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FightAlgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FightAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="FightAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="glinka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FightAlgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FightAlgorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -286,7 +260,7 @@
               <item name="FightAlgorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="glinka" type="462c0819:PsiDirectoryNode" />
-              <item name="inputconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="gamer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FightAlgorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -328,7 +302,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JanAlgorithm/Player" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -384,12 +358,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547304380333</updated>
-      <workItem from="1547304386306" duration="29727000" />
+      <workItem from="1547304386306" duration="32359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29727000" />
+    <option name="totallyTimeSpent" value="32359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,11 +387,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" weight="0.329718" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24712329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24712329" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -470,7 +444,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/Element.java">
+    <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/Spot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
@@ -498,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/MCTSLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -521,14 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glinka/inputconsumer/CallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glinka/util/DataParser.java">
+    <entry file="file://$PROJECT_DIR$/src/com/glinka/util/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
@@ -536,34 +496,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#287#296#0" expanded="true" />
             <element signature="e#1703#1704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glinka/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
-            <element signature="e#1757#1758#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1819#1820#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glinka/inputconsumer/GameInputConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="73" lean-forward="true" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -580,10 +512,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/FightAlgorithm/com/glinka/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glinka/util/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/algorithm/UCT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/algorithm/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addScore#0;class#State#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/algorithm/MCTS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="510">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#333#334#0" expanded="true" />
@@ -598,49 +582,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/algorithm/State.java">
+    <entry file="file://$PROJECT_DIR$/src/com/glinka/gamer/Gamer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/algorithm/UCT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/glinka/logic/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-664">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="315">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/glinka/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="195">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#412#413#0" expanded="true" />
@@ -653,12 +620,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/FightAlgorithm/com/glinka/Main.class">
+    <entry file="file://$PROJECT_DIR$/src/com/glinka/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="180">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
-            <element signature="e#0#1103#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
